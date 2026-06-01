@@ -1,5 +1,10 @@
+/* Estiliza o cabeçalho da página */
 header{
+      /* Define a cor de fundo do cabeçalho */
     background-color: rgb(14, 14, 130);
+
+     /* Define a cor do texto */
     color: aliceblue;
+    /* Adiciona um espaçamento interno de 2 pixels */
     padding: 2px;
 }
