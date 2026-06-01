@@ -3,18 +3,18 @@
  O objetivo da aplicação é permitir que usuários façam login em um sistema, acessem uma área protegida e realizem o cadastro de novos usuários. O sistema também possibilita visualizar os usuários cadastrados e encerrar a sessão por meio do logout.
 
 ## Tecnologias Utilizadas
-HTML 
-CSS 
-PHP 
-MySQL 
-Sessões PHP 
+* HTML 
+* CSS 
+* PHP 
+* MySQL 
+* Sessões PHP 
 
 ## Estrutura Básica dos Arquivos
 
  O sistema está organizado em algumas pastas para deixar o código mais organizado. Na pasta infra, fica o arquivo connect.php, que é responsável por fazer a conexão com o banco de dados.
  Na pasta public, estão os arquivos utilizados pelo usuário. Dentro da pasta component, temos o arquivo navbar.php, que exibe o cabeçalho da página, e o arquivo table.php, que mostra a tabela com os usuários cadastrados.
  Também na pasta public, o arquivo home.php é a página principal do sistema após o login, onde é possível cadastrar e visualizar usuários. Já o arquivo logout.php é utilizado para encerrar a sessão do usuário.
- Na raiz do projeto está o arquivo index.php, que corresponde à tela de login. Além disso, existe a pasta style, que contém o arquivo style.css, responsável pela aparência e estilização das páginas.
+ No começo do projeto está o arquivo index.php, que corresponde à tela de login. Além disso, existe a pasta style, que contém o arquivo style.css, responsável pela aparência e estilização das páginas.
 
 ## Explicação Geral sobre o Funcionamento do Código
 
