@@ -36,3 +36,15 @@
 * Como exibir dados do banco de dados em tabelas HTML.
 * A importância da segurança em sistemas de login, principalmente contra ataques de SQL Injection.
 * A importância de separar estrutura (HTML), estilo (CSS) e lógica (PHP).
+
+## Implementação da Funcionalidade de Exclusão de Usuários
+
+A funcionalidade de exclusão foi desenvolvida para permitir a remoção de usuários cadastrados no sistema. Na página de listagem de usuários foi adicionado um link "Excluir" para cada registro exibido.
+
+## Arquivos alterados durante o desenvolvimento
+
+O principal arquivo alterado foi a o table
+
+## Lógica utilizada para realizar a exclusão
+
+A lógica da funcionalidade de exclusão consiste em identificar o usuário que será removido através do seu ID único. Na tela de listagem, cada usuário possui um link de exclusão que envia o ID correspondente para o arquivo responsável pela operação.
