@@ -29,7 +29,12 @@
             <td>" . $linha["id"] . "</td>
             <td>" . $linha["username"] . "</td>
             <td>" . $linha["password"] . "</td>
-        
+        <td>
+            <a href='excluir.php?id=" . $linha["id"] . "'
+            onclick='return confirm(\"Deseja realmente excluir este usuário?\")'>
+            Excluir
+            </a>
+            </td>
         </tr>";
     }
     
