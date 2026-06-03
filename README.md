@@ -37,14 +37,23 @@
 * A importância da segurança em sistemas de login, principalmente contra ataques de SQL Injection.
 * A importância de separar estrutura (HTML), estilo (CSS) e lógica (PHP).
 
-## Implementação da Funcionalidade de Exclusão de Usuários
+### Funcionalidade de Exclusão de Usuários (Não Concluída)
 
-A funcionalidade de exclusão foi desenvolvida para permitir a remoção de usuários cadastrados no sistema. Na página de listagem de usuários foi adicionado um link "Excluir" para cada registro exibido.
+Durante o desenvolvimento desta atividade, não consegui finalizar a implementação da funcionalidade solicitada dentro do prazo disponível. Apesar disso, dediquei tempo para analisar o código já existente e compreender como a solução poderia ser desenvolvida.
 
-## Arquivos alterados durante o desenvolvimento
+## Como a Funcionalidade Poderia Ser Implementada
+Para realizar a exclusão de usuários, seria necessário adicionar um botão de exclusão na tabela de usuários cadastrados. Ao selecionar essa opção, o sistema enviaria o ID do usuário para um arquivo PHP responsável por processar a solicitação e executar a remoção do registro no banco de dados.
 
-O principal arquivo alterado foi a o table
+## Arquivos que Precisariam Ser Modificados
 
-## Lógica utilizada para realizar a exclusão
+* table.php
+* index.php
+* excluir.php
 
-A lógica da funcionalidade de exclusão consiste em identificar o usuário que será removido através do seu ID único. Na tela de listagem, cada usuário possui um link de exclusão que envia o ID correspondente para o arquivo responsável pela operação.
+## Lógica Necessária
+
+* Identificar qual usuário foi selecionado para remoção.
+* Enviar as informações necessárias para o sistema processar a solicitação.
+* Realizar a exclusão do registro correspondente no banco de dados.
+* Confirmar que a operação foi executada corretamente.
+* Atualizar a tela para que o usuário removido não apareça mais na listagem.
